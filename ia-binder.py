@@ -2,8 +2,8 @@
 #Date 16/08/2022
 #Tool title "ia-binder"
 #Description "Tool used to bind image and archive file together"
-#Compatible with Windows OS
-#Made by d4t4
+#Compatible with Windows OS only 
+#Made by @esistdini
 
 import os
 
@@ -15,6 +15,8 @@ def cls():
         os.system("cls")
     else:
         os.system("clear")
+        print("Your OS is not compatible")
+        exit()
 
 def create():
 
